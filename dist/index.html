@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Folonite Builder</title>
+    <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/grapesjs"></script>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f9fbfd;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gjs" style="height:0px; overflow:hidden">
+
+      <!-- Hero Section -->
+      <section style="padding:80px 20px; background:linear-gradient(135deg, #e8f0fe, #ffffff); text-align:center;">
+        <h1 style="font-size:3rem; color:#1a237e; font-weight:700; margin-bottom:20px;">Empowering Innovation with Technology</h1>
+        <p style="font-size:1.25rem; color:#444; max-width:800px; margin:0 auto;">
+          Folonite is an enterprise solution and consulting firm dedicated to empowering organizations with advanced technology and insightful guidance.
+        </p>
+      </section>
+
+      <!-- Feature Boxes Section -->
+      <section style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:32px; padding:60px 40px; background:#fff; max-width:1200px; margin:0 auto;">
+        <div style="background:#f1f5fb; padding:30px; border-radius:12px;">
+          <h2 style="color:#1a237e; font-size:1.5rem;">💻 Folonite.js</h2>
+          <p style="color:#333; font-size:1rem; line-height:1.6;">
+            A developer-first JavaScript framework for building modern, scalable apps with SSR, reusable components, and complete control. Best for experienced coders.
+          </p>
+        </div>
+        <div style="background:#f1f5fb; padding:30px; border-radius:12px;">
+          <h2 style="color:#1a237e; font-size:1.5rem;">🎨 Folonite Builder</h2>
+          <p style="color:#333; font-size:1rem; line-height:1.6;">
+            Drag-and-drop website builder for creators, entrepreneurs, and non-developers. Go from idea to live site — no code required.
+          </p>
+        </div>
+        <div style="background:#f1f5fb; padding:30px; border-radius:12px;">
+          <h2 style="color:#1a237e; font-size:1.5rem;">🌐 One Vision</h2>
+          <p style="color:#333; font-size:1rem; line-height:1.6;">
+            Two tools, one goal — making web creation accessible, whether you're a seasoned developer or just starting out.
+          </p>
+        </div>
+      </section>
+
+      <!-- Info Section -->
+      <section style="padding:60px 20px; background:#fefefe; text-align:center;">
+        <h2 style="color:#1a237e; font-size:2rem; margin-bottom:20px;">Contact & Corporate Info</h2>
+        <p style="font-size:1.1rem; color:#444; line-height:1.8;">
+          <strong>Corporate Office:</strong> 2nd Middle Street, V.O.C. Nagar, Rajapalayam, Tamil Nadu, India. <br>
+          <strong>Phone:</strong> +91-9790294221
+        </p>
+
+        <div style="margin-top:30px; text-align:left; max-width:800px; margin-left:auto; margin-right:auto;">
+          <p><strong>Support:</strong> support@folonite.in</p>
+          <p><strong>Documentation:</strong> docs@folonite.in</p>
+          <p><strong>Partnerships:</strong> partner@folonite.in</p>
+          <p><strong>Careers:</strong> careers@folonite.in</p>
+          <p><strong>Training and Workshops:</strong> training@folonite.in</p>
+          <p><strong>Service Enquiry:</strong> services@folonite.in</p>
+          <p><strong>Data Requests:</strong> data@folonite.in</p>
+          <p><strong>Policy Queries:</strong> laws@folonite.in</p>
+        </div>
+      </section>
+
+      <!-- Closing Message -->
+      <section style="background:#fff3e0; padding:40px 20px; text-align:center;">
+        <h3 style="font-size:1.6rem; color:#e65100; margin-bottom:15px;">Support Innovation with Us</h3>
+        <p style="font-size:1.1rem; color:#333; max-width:800px; margin:0 auto;">
+          Despite being filled with ideas, our limited manpower means we value every contribution that helps us move forward. Support us in making a difference through creativity and technology.
+        </p>
+      </section>
+
+      <!-- Footer -->
+      <footer style="background:#1a237e; color:white; padding:28px 40px; text-align:center; font-size:0.95rem; margin-top:60px;">
+        &copy; 2025 Folonite. Built for developers and dreamers alike.
+      </footer>
+
+    </div>
+
+    <script type="text/javascript">
+      window.onload = () => {
+        window.editor = grapesjs.init({
+          height: '100%',
+          showOffsets: true,
+          noticeOnUnload: false,
+          storageManager: false,
+          container: '#gjs',
+          fromElement: true,
+          plugins: ['grapesjs-preset-webpage'],
+          pluginsOpts: {
+            'grapesjs-preset-webpage': {}
+          }
+        });
+      };
+    </script>
+  </body>
+</html>

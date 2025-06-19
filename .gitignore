@@ -1,8 +1,4 @@
-.DS_Store
-private/
+
 node_modules/
-.eslintrc
-.npmrc
-*.log
-_index.html
+
 

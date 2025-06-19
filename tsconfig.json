@@ -1,4 +1,11 @@
 {
-    "extends": "./node_modules/grapesjs-cli/dist/template/tsconfig.json",
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "esModuleInterop": true
+    },
     "include": ["src"]
-}
+  }
+  

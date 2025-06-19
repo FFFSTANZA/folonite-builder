@@ -1,43 +1,16 @@
 {
-  "name": "grapesjs-preset-webpage",
-  "version": "1.0.4",
-  "description": "GrapesJS Plugin Webpage Preset",
-  "main": "dist/index.js",
-  "files": [
-    "dist/"
-  ],
+  "name": "folonite-builder",
+  "version": "1.0.0",
   "scripts": {
-    "build": "grapesjs-cli build",
-    "start": "grapesjs-cli serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/GrapesJS/preset-webpage.git"
-  },
-  "keywords": [
-    "grapesjs",
-    "plugin",
-    "webpage",
-    "preset",
-    "wysiwyg"
-  ],
-  "author": "Artur Arseniev",
-  "license": "BSD-3-Clause",
-  "devDependencies": {
-    "grapesjs": "^0.21.2",
-    "grapesjs-cli": "^4.1.1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "grapesjs-blocks-basic": "^1.0.2",
-    "grapesjs-custom-code": "^1.0.2",
-    "grapesjs-navbar": "^1.0.2",
-    "grapesjs-parser-postcss": "^1.0.3",
-    "grapesjs-plugin-forms": "^2.0.6",
-    "grapesjs-preset-webpage": "^1.0.3",
-    "grapesjs-style-bg": "^2.0.2",
-    "grapesjs-tabs": "^1.0.6",
-    "grapesjs-tooltip": "^0.1.8",
-    "grapesjs-touch": "^0.1.1",
-    "grapesjs-typed": "^2.0.1"
+    "grapesjs": "^0.21.2",
+    "grapesjs-preset-webpage": "^1.0.3"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
   }
 }
